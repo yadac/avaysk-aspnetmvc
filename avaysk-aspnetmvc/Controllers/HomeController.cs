@@ -13,6 +13,11 @@ namespace avaysk_aspnetmvc.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            throw new NotImplementedException("not implemented");
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
